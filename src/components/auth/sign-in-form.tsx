@@ -28,7 +28,7 @@ type Values = zod.infer<typeof schema>;
 //SuperAdmin
 // const defaultValues = { email: 'admin@mail.com', password: 'Vh%RAt0)s1Rf' } satisfies Values;
 
-const defaultValues = { email: 'support@ymtinnovation.com', password: '3GH52wUM7B5P' } satisfies Values;
+const defaultValues = { email: '', password: '' } satisfies Values;
 
 export function SignInForm(): React.JSX.Element {
   const router = useRouter();
